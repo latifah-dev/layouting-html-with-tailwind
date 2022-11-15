@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netbook</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          container: {
+            center: true,
+            screens: {
+              xl: "1170px",
+            },
+          },
+          fontFamily: {
+            sans: ["Inter"],
+            serif: ["Inter"],
+            mono: ["Inter"],
+            display: ["Inter"],
+            body: ["Inter"],
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header navbar -->
+    <section id="header" class="border-b-[1px] fixed w-full">
+      <div class="container flex justify-between items-center py-[22px]">
+        <div class="menu-navigation flex gap-[70px] items-center">
+          <div class="img-box">
+            <img src="assets/images/logo.png" alt="" />
+          </div>
+          <ul class="flex gap-8 items-center">
+            <li>
+              <a href="#" class="active">Home</a>
+            </li>
+            <li>
+              <div class="item-dropdown flex gap-[5px]">
+                <a href="#">Community</a>
+                <img
+                  src="assets/images/CaretDown.png"
+                  class="object-contain"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Events</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-action flex gap-[42px]">
+          <div class="search-box flex items-center gap-[8px]">
+            <div class="image-box">
+              <img
+                src="assets/images/MagnifyingGlass.png"
+                alt=""
+                class="object-contain"
+              />
+            </div>
+            <form action="#!" class="w-full">
+              <input
+                type="text"
+                placeholder="Search here..."
+                class="bg-transparent border-none w-full"
+              />
+            </form>
+          </div>
+          <div
+            class="button-box px-[44px] py-[18px] bg-[#217BF4] rounded-[14px]"
+          >
+            <button>
+              <span class="text-[#ffffff]">Log in</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero -->
+    <section id="hero" class="bg-gradient-to-br from-[#FFFFFF] to-[#D4E7FE]">
+      <div
+        class="container flex justify-between items-center pb-[82.53px] pt-[161px]"
+      >
+        <div class="box-title">
+          <button
+            class="px-[30px] py-[12px] bg-[#217BF4]/[0.1] text-[#217BF4] rounded-[8px]"
+          >
+            Netbook Comunity
+          </button>
+          <h1 class="pt-[20px] pb-[18px]">Your Solutions For Community!</h1>
+          <p class="pb-[42px]">
+            More than 2 billion people in over countries use socibook to stay in
+            touch with friends & family.
+          </p>
+          <div class="action flex gap-[18px]">
+            <button class="button px-[42px] py-[24px] bg-[#217BF4] text-white">
+              About More
+            </button>
+            <button class="button px-[42px] py-[24px] text-[#217BF4]">
+              Invite Friend
+            </button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/images/Iamge.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- about us -->
+    <section id="about">
+      <div class="container mt-[96px] flex justify-between pb-[55px]">
+        <div class="box-title w-[515px]">
+          <span class="pb-[10px]">What Netboks?</span>
+          <h2 class="pb-[16px]">Why Join to Netbook Social Network?</h2>
+          <p class="pb-[36px]">
+            Recent surveys have indicated that small businesses recognise the
+            need they have to connect with consumer.
+          </p>
+          <ul class="flex flex-col gap-[16px]">
+            <li class="flex items-center gap-[12px]">
+              <img src="assets/images/Group 1000000831.png" alt="" />
+              Groups
+            </li>
+            <li class="flex items-center gap-[12px]">
+              <img src="assets/images/Group 1000000831.png" alt="" />Messages
+            </li>
+            <li class="flex items-center gap-[12px]">
+              <img src="assets/images/Group 1000000831.png" alt="" />Share
+            </li>
+          </ul>
+        </div>
+        <div class="image flex items-center gap-[30px]">
+          <div class="box-image-vertical">
+            <img src="assets/images/Image (2).png" alt="" />
+          </div>
+          <div class="box-image-square flex flex-col gap-[30px]">
+            <img src="assets/images/Image (1).png" alt="" />
+            <img src="assets/images/Image.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- achievement -->
+    <section id="achievement">
+      <div class="container flex py-[75px]">
+        <div
+          class="card w-[336px] border border-slate-200 shadow-md pl-11 pr-[18px] pt-[46px] pb-10 rounded-[14px]"
+        >
+          <div class="rating flex items-center gap-[10px] pb-[32px]">
+            <img src="assets/images/Star.png" alt="" />
+            <h4>4.8 Rating</h4>
+          </div>
+          <div class="member flex items-center">
+            <div class="flex">
+              <img
+                src="assets/images/Ellipse 13 (1).png"
+                alt=""
+                class="ml-[-20px]"
+              />
+              <img
+                src="assets/images/Ellipse 14 (2).png"
+                alt=""
+                class="ml-[-32px]"
+              />
+              <img
+                src="assets/images/Ellipse 15.png"
+                alt=""
+                class="ml-[-32px]"
+              />
+            </div>
+            <div class="pb-[5px]">
+              <span class="font-[600] text-[16px] text-[#217BF4] mr-[5px]"
+                >+856k
+              </span>
+              <span class="font-[500] text-[16px] text-[#5D5B70]">Members</span>
+            </div>
+          </div>
+          <div class="box-title w-full pt-[36px] flex flex-col gap-[40px]">
+            <p>
+              More than 2 billion we people over countries use socibooks we to
+              stay in touch with friends.
+            </p>
+            <span class="text-[#217bf4]">Join our community -></span>
+          </div>
+        </div>
+        <div
+          class="card w-[336px] ml-[24px] border border-slate-200 shadow-md pl-11 pr-[18px] pt-[46px] pb-10 rounded-[14px]"
+        >
+          <div class="rating flex items-center gap-[10px]">
+            <img src="assets/images/Trophy.png" alt="" />
+            <h4>Awwwards</h4>
+          </div>
+          <div class="github flex pt-[35px] items-center ml-[-15px]">
+            <img src="assets/images/Ellipse 14 (1).png" alt="" />
+            <span class="font-[400] text-[16px] text-[#5D5B70] pb-[6px]"
+              >Best of
+              <span class="font-[600] text-[16px] text-[#217BF4] pb-[6px]"
+                >2021
+              </span>
+              on Github</span
+            >
+          </div>
+          <div class="box-title w-full pt-[40px] flex flex-col gap-[40px]">
+            <p>
+              More than 2 billion we people over countries use socibooks we to
+              stay in touch with friends.
+            </p>
+            <span class="text-[#4A4A56]">Go to awwards -></span>
+          </div>
+        </div>
+        <div class="box-title w-[381px] ml-[93px]">
+          <span class="text-[#217bf4] pb-[10px]">Our Achievement</span>
+          <h2 class="pb-[18px]">We are Connecting You The Digital Life.</h2>
+          <p class="pb-[38px]">
+            The scope the Social Media becomes crucial Is helps the business to
+            directly engage with their needs and wants.
+          </p>
+          <button
+            class="button px-[42px] py-[24px] bg-[#217BF4] text-white flex gap-[20px]"
+          >
+            Discover me
+            <img src="assets/images/ArrowRight.png" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- community -->
+    <section id="community mt-[55px]">
+      <div class="container text-center pt-[60px] pb-[64px]">
+        <div class="box-title">
+          <span class="text-[#217bf4] pb-[9px]">Our Community</span>
+          <h2 class="pb-[19px]">Community Main Feature</h2>
+          <p>The wise man therefore always holds in these matters <br>
+             to this principle of selection.</p>
+        </div>
+      <div class="container pb-[80px] mb-[93px] flex flex-wrap justify-center gap-[44px]">
+        <div class="card flex gap-[36px] shadow-[14px_22px_52px_-12px_rgba(127,127,127,0.13)] bg-blue-900 rounded-[14px]">
+          <div class="card-icon w-[66px] h-[66px] bg-[linear-gradient(154.49deg,_#5CA1FE_6.61%,_#217BF4_89.72%)] rounded-[24px] flex justify-center items-center">
+            <img src="assets/images/Icon.png" alt="">
+          </div>
+          <div class="card-content text-left  pr-[65px] w-[315px]">
+            <h3>Members, Friends</h3>
+            <p>Members, Friends Connection ( like followers ), Private Message</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- valuable -->
+    <section id="valuable">
+      <div class="container">
+        <div class="box-title">
+          <span>Valuable Team</span>
+          <h2>Our Active Members</h2>
+          <p>when an unknown printer took a galley of type and meeting fari scrambled it.</p>
+        </div>
+        <div class="menu"></div>
+      </div>
+      <div class="container">
+
+      </div>
+    </section>
+  </body>
+</html>

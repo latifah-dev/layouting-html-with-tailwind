@@ -1,0 +1,108 @@
+input {
+  font-family: "Inter";
+}
+#header .menu-navigation a,
+.menu-action button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #656464;
+}
+#header .menu-navigation a.active {
+  font-weight: 600;
+  color: #2b2b39;
+}
+#header .menu-action .search-box {
+  width: 105px;
+  padding: 18px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+#header .menu-action .search-box input {
+  font-size: 12px;
+  padding: 0;
+}
+
+.button {
+  border-radius: 14px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  border: 1px solid #217bf4;
+}
+.box-title h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px;
+  color: #0a093d;
+}
+.box-title h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #0a093d;
+}
+.card h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+
+  color: #0a093d;
+}
+.box-title p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #656464;
+}
+.box-title span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+}
+.box-title ul li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  color: #171648;
+}
+.card-content h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  /* identical to box height, or 108% */
+
+  color: #2f2c4a;
+}
+.card-content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #656464;
+}
